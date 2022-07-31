@@ -1,13 +1,31 @@
 // 1. function declare 
-function laptopConfiguration() {
-    console.log('Asus vivobook configuration')
-}
-laptopConfiguration();
+// addition
+function shopping(panjabi, pajama) {
+    var totalBill = panjabi + pajama;
+    return totalBill;
+};
+var panjabi = 1500;
+var pajama = 1000;
+var shoppingResult = shopping(panjabi, pajama);
+console.log(shoppingResult);
 
-function asusVivobook(budget) {
-    var productPrice = 45000;
-    var productQuantity = budget / productPrice;
-    return productQuantity;
+// multiplaction 
+function laptopUpdate(ram, ssd) {
+    var totalCost = ram * ssd;
+    return totalCost;
 }
-var totalBudget = 90000;
-console.log(asusVivobook(totalBudget));
+var ram = 2500;
+var ssd = 3500;
+var updateResult = laptopUpdate(ram, ssd);
+console.log(updateResult);
+
+// division
+function asusVivobook(budget, price) {
+    var product = budget / price;
+    return product;
+}
+var budget = 80000;
+var price = 40000;
+var productResult = asusVivobook(budget, price);
+console.log(productResult);
+
