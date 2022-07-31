@@ -29,3 +29,16 @@ var price = 40000;
 var productResult = asusVivobook(budget, price);
 console.log(productResult);
 
+// object 
+var country = {
+    name: 'Bangladesh',
+    area: 150000,
+    capital: 'Dhaka',
+    Division: 8,
+    currency: 'Taka'
+}
+country.name = 'Republic of Bangladesh';
+country['Division'] = 9;
+var goverment = country.name;
+console.log(goverment);
+console.log(country)
